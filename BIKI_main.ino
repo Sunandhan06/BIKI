@@ -161,6 +161,12 @@ void timer(int d) {
           else {
 
             // 60 sec starts
+
+            for(int sixty = 0; sixty < 60; sixty++) {
+
+              delay(1000);
+          
+            }
             
           }
 
@@ -170,14 +176,28 @@ void timer(int d) {
 
           // 30 sec starts
 
+          for(int thirty = 0; thirty < 30; thirty++) {
+            
+            delay(1000);
+          
+          }
+
         }
+
       }
 
       else {
 
         // 10 sec starts
 
+        for(int ten = 0; ten < 10; ten++) {
+
+          delay(1000);
+
+        }
+
       }
+      
     }
 
     else {
@@ -187,7 +207,6 @@ void timer(int d) {
     }
 
   }
-
 
 }
 
